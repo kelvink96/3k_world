@@ -3,6 +3,10 @@
   font-family: "Roboto Slab";
 }
 
+i {
+  font-size: 1.5em;
+}
+
 .vertical-center {
   margin: 0;
   position: absolute;
@@ -137,8 +141,30 @@ main .container .pricing-section .pricing-title {
 main .container .pricing-section .pricing-details i {
   color: #9199BE;
 }
+main .container .pricing-section .pricing-details h4 {
+  text-align: center;
+}
 main .container .pricing-section .pricing-details ul li {
   padding: 0.5em 0;
+}
+main .container .contact-section {
+  margin: 1.5em 0;
+}
+main .container .contact-section .contact-section-title {
+  text-align: center;
+}
+main .container .contact-section .contact-info {
+  border: 2px solid #9199BE;
+  border-radius: 10px;
+  padding: 1em;
+}
+main .container .contact-section .contact-info i, main .container .contact-section .contact-info a {
+  margin-right: 0.5em;
+}
+main .container .contact-section .contact-info i:hover, main .container .contact-section .contact-info i:focus, main .container .contact-section .contact-info a:hover, main .container .contact-section .contact-info a:focus {
+  color: #9199BE;
+  cursor: pointer;
+  transition: all ease-in-out 200ms;
 }
 
 /*# sourceMappingURL=styles.css.map */

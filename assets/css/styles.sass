@@ -11,6 +11,9 @@ $grey: #6C6B73
 *
   font-family: "Roboto Slab"
 
+i
+  font-size: 1.5em
+
 .vertical-center
   margin: 0
   position: absolute
@@ -154,6 +157,28 @@ main
         i
           color: $light-blue
 
+        h4
+          text-align: center
+
         ul
           li
             padding: .5em 0
+    .contact-section
+      margin: 1.5em 0
+
+      .contact-section-title
+        text-align: center
+
+      .contact-info
+        border: 2px solid $light-blue
+        border-radius: 10px
+        padding: 1em
+
+        i,a
+          margin-right: .5em
+
+          &:hover,
+          &:focus
+            color: $light-blue
+            cursor: pointer
+            transition: all ease-in-out 200ms
