@@ -7,6 +7,10 @@ i {
   font-size: 1.5em;
 }
 
+button {
+  border-radius: 5px;
+}
+
 i, a {
   margin-right: 0.5em;
 }
@@ -35,7 +39,8 @@ html h2, html h4, html p, html a, body h2, body h4, body p, body a {
   color: white;
   font-family: "Roboto Slab";
 }
-html h2, body h2 {
+html h2, html h4, body h2, body h4 {
+  text-transform: uppercase;
   margin: 20px 0;
 }
 
@@ -53,7 +58,7 @@ nav .uk-navbar-brand {
 nav .uk-navbar-nav li a {
   font-weight: 300;
 }
-nav .uk-navbar-content input, nav .uk-navbar-content button {
+nav .uk-navbar-content input {
   border-radius: 5px;
 }
 
@@ -157,7 +162,11 @@ main .container .pricing-section .pricing-details ul li {
 main .container .contact-section .contact-section-title {
   text-align: center;
 }
+main .container .contact-section .contact-message {
+  margin-right: 0.5em;
+}
 main .container .contact-section .contact-info {
+  margin-left: 0.5em;
   border: 2px solid #9199BE;
   border-radius: 10px;
   padding: 1em;
