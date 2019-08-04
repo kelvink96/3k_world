@@ -75,12 +75,11 @@ main .container .about-section .about-panels .uk-panel {
   padding: 2.5em 0;
   text-align: center;
 }
+main .container .resources-section {
+  margin-top: 1.5em;
+}
 main .container .resources-section .resources-title {
   text-align: center;
-  margin-top: 20px;
-}
-main .container .resources-section .assets .assets-section {
-  padding: 1em 0;
 }
 main .container .resources-section .assets .assets-section .assets-grid {
   text-align: center;
@@ -90,7 +89,7 @@ main .container .resources-section .assets .assets-section .assets-grid .uk-widt
 }
 main .container .resources-section .assets .assets-section .assets-grid .uk-width-1-2 .asset-item {
   margin: 0 1em;
-  padding: 1em;
+  padding: 1em 0;
   background: linear-gradient(180deg, #2E303D, #212524);
 }
 main .container .resources-section .assets .assets-main {
@@ -99,6 +98,17 @@ main .container .resources-section .assets .assets-main {
 }
 main .container .resources-section .assets .assets-main img {
   height: 200px;
+}
+main .container .resources-section .browse-asset-pack {
+  padding: 1em;
+}
+main .container .resources-section .browse-asset-pack button {
+  margin-top: 1em;
+}
+main .container .resources-section .browse-asset-pack .asset-pack {
+  padding: 1em 0.5em;
+  border: 2px dashed #9199BE;
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */
