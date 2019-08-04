@@ -102,6 +102,9 @@ main .container .resources-section .assets .assets-main {
 main .container .resources-section .assets .assets-main img {
   height: 200px;
 }
+main .container .resources-section .browse-asset-pack-title {
+  padding-left: 35px;
+}
 main .container .resources-section .browse-asset-pack {
   padding: 1em;
 }
@@ -124,6 +127,18 @@ main .container .team-section .team-members .team-member-panel {
   border-radius: 20px 0 20px 0;
   border: 2px solid #9199BE;
   padding: 1em 0;
+}
+main .container .pricing-section {
+  margin: 1.5em 0;
+}
+main .container .pricing-section .pricing-title {
+  text-align: center;
+}
+main .container .pricing-section .pricing-details i {
+  color: #9199BE;
+}
+main .container .pricing-section .pricing-details ul li {
+  padding: 0.5em 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
