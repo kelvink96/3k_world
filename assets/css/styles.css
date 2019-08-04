@@ -81,6 +81,9 @@ main .container .resources-section {
 main .container .resources-section .resources-title {
   text-align: center;
 }
+main .container .resources-section .assets {
+  margin: 0 35px;
+}
 main .container .resources-section .assets .assets-section .assets-grid {
   text-align: center;
 }
@@ -109,6 +112,18 @@ main .container .resources-section .browse-asset-pack .asset-pack {
   padding: 1em 0.5em;
   border: 2px dashed #9199BE;
   border-radius: 5px;
+}
+main .container .team-section {
+  text-align: center;
+  margin: 1.5em 0;
+}
+main .container .team-section .team-members {
+  margin-top: 1em;
+}
+main .container .team-section .team-members .team-member-panel {
+  border-radius: 20px 0 20px 0;
+  border: 2px solid #9199BE;
+  padding: 1em 0;
 }
 
 /*# sourceMappingURL=styles.css.map */
