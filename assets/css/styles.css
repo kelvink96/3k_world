@@ -1,3 +1,6 @@
-
+@import url("RobotoSlab.css");
+* {
+  font-family: "Roboto Slab";
+}
 
 /*# sourceMappingURL=styles.css.map */
