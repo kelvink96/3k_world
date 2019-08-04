@@ -3,4 +3,63 @@
   font-family: "Roboto Slab";
 }
 
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+html, body {
+  height: 100%;
+  width: 100vw;
+  overflow-x: hidden;
+  background: #2E303D;
+  color: white;
+}
+html h2, html h4, html p, html a, body h2, body h4, body p, body a {
+  color: white;
+  font-family: "Roboto Slab";
+}
+html h2, body h2 {
+  margin: 20px 0;
+}
+
+nav {
+  background: #2E303D !important;
+  padding: 0 1em;
+}
+nav a, nav i, nav p {
+  color: white !important;
+  font-family: "Roboto Slab" !important;
+}
+nav .uk-navbar-brand {
+  font-size: 1.4em;
+}
+nav .uk-navbar-nav li a {
+  font-weight: 300;
+}
+nav .uk-navbar-content input, nav .uk-navbar-content button {
+  border-radius: 5px;
+}
+
+main {
+  margin-top: 2em;
+}
+main .container {
+  max-width: 90%;
+}
+main .container .headline-section {
+  height: 15em;
+  padding-top: 5%;
+}
+main .container .headline-section .uk-list li {
+  margin: 0.5em 0;
+}
+main .container .about-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 /*# sourceMappingURL=styles.css.map */

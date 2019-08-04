@@ -11,4 +11,67 @@ $grey: #6C6B73
 *
   font-family: "Roboto Slab"
 
+.vertical-center
+  margin: 0
+  position: absolute
+  top: 50%
+  -ms-transform: translateY(-50%)
+  transform: translateY(-50%)
+
+//general styles -> body, html
+html, body
+  height: 100%
+  width: 100vw
+  overflow-x: hidden
+  background: $dark-blue
+  color: white
+
+  h2, h4, p, a
+    color: white
+    font-family: "Roboto Slab"
+
+  h2
+    margin: 20px 0
+
 //nav styles
+nav
+  background: $dark-blue !important
+  padding: 0 1em
+
+  a, i, p
+    color: white !important
+    font-family: "Roboto Slab" !important
+
+  .uk-navbar-brand
+    font-size: 1.4em
+
+  .uk-navbar-nav
+    li
+      a
+        font-weight: 300
+
+  .uk-navbar-content
+    input, button
+      border-radius: 5px
+
+
+//main content
+main
+  margin-top: 2em
+
+  .container
+    max-width: 90%
+
+    .headline-section
+      height: 15em
+      padding-top: 5%
+
+      .uk-list
+        li
+          margin: .5em 0
+
+    .about-section
+      h2
+        text-align: center
+        margin-bottom: 20px
+
