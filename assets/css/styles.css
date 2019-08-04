@@ -63,6 +63,9 @@ main {
 main .container {
   max-width: 90%;
 }
+main .container .headline-section, main .container .about-section, main .container .resources-section, main .container .team-section, main .container .pricing-section, main .container .contact-section {
+  margin: 6em 0;
+}
 main .container .headline-section {
   height: 15em;
   padding-top: 5%;
@@ -71,11 +74,13 @@ main .container .headline-section h2 {
   margin: 0;
 }
 main .container .headline-section .uk-list li {
-  margin: 0.5em 0;
+  margin: 1em 0;
+}
+main .container .headline-section .headline-image-container img {
+  height: 160px;
 }
 main .container .about-section .about-title {
   text-align: center;
-  margin-bottom: 20px;
 }
 main .container .about-section .about-panels {
   background: #212524;
@@ -87,9 +92,6 @@ main .container .about-section .about-panels .uk-grid .uk-width-1-2:nth-child(2)
 main .container .about-section .about-panels .uk-panel {
   padding: 2.5em 0;
   text-align: center;
-}
-main .container .resources-section {
-  margin-top: 1.5em;
 }
 main .container .resources-section .resources-title {
   text-align: center;
@@ -131,7 +133,6 @@ main .container .resources-section .browse-asset-pack .asset-pack {
 }
 main .container .team-section {
   text-align: center;
-  margin: 1.5em 0;
 }
 main .container .team-section .team-members {
   margin-top: 1em;
@@ -140,9 +141,6 @@ main .container .team-section .team-members .team-member-panel {
   border-radius: 20px 0 20px 0;
   border: 2px solid #9199BE;
   padding: 1em 0;
-}
-main .container .pricing-section {
-  margin: 1.5em 0;
 }
 main .container .pricing-section .pricing-title {
   text-align: center;
@@ -155,9 +153,6 @@ main .container .pricing-section .pricing-details h4 {
 }
 main .container .pricing-section .pricing-details ul li {
   padding: 0.5em 0;
-}
-main .container .contact-section {
-  margin: 1.5em 0;
 }
 main .container .contact-section .contact-section-title {
   text-align: center;
