@@ -52,7 +52,7 @@ html, body
 //nav styles
 nav
   background: $dark-blue !important
-  padding: 0 1em
+  padding: 1em 2em
 
   a, i, p
     color: white !important
@@ -65,6 +65,12 @@ nav
     li
       a
         font-weight: 300
+
+        &:hover,
+        &:focus
+          border-bottom: 2px solid white
+          background: transparent
+          transition: all ease-in-out 200ms
 
   .uk-navbar-content
     input
