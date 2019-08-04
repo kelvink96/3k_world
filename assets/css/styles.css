@@ -7,6 +7,15 @@ i {
   font-size: 1.5em;
 }
 
+i, a {
+  margin-right: 0.5em;
+}
+i:hover, i:focus, a:hover, a:focus {
+  color: #9199BE;
+  cursor: pointer;
+  transition: all ease-in-out 200ms;
+}
+
 .vertical-center {
   margin: 0;
   position: absolute;
@@ -158,13 +167,10 @@ main .container .contact-section .contact-info {
   border-radius: 10px;
   padding: 1em;
 }
-main .container .contact-section .contact-info i, main .container .contact-section .contact-info a {
-  margin-right: 0.5em;
-}
-main .container .contact-section .contact-info i:hover, main .container .contact-section .contact-info i:focus, main .container .contact-section .contact-info a:hover, main .container .contact-section .contact-info a:focus {
-  color: #9199BE;
-  cursor: pointer;
-  transition: all ease-in-out 200ms;
+
+footer {
+  padding: 1em 0 0.5em 0;
+  background: #212524;
 }
 
 /*# sourceMappingURL=styles.css.map */
