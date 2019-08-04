@@ -54,12 +54,26 @@ main .container .headline-section {
   height: 15em;
   padding-top: 5%;
 }
+main .container .headline-section h2 {
+  margin: 0;
+}
 main .container .headline-section .uk-list li {
   margin: 0.5em 0;
 }
-main .container .about-section h2 {
+main .container .about-section .about-title {
   text-align: center;
   margin-bottom: 20px;
+}
+main .container .about-section .about-panels {
+  background: #212524;
+  border-radius: 10px;
+}
+main .container .about-section .about-panels .uk-grid .uk-width-1-2:nth-child(2) {
+  border-left: 1px solid #6C6B73;
+}
+main .container .about-section .about-panels .uk-panel {
+  padding: 2.5em 0;
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles.css.map */

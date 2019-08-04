@@ -66,12 +66,27 @@ main
       height: 15em
       padding-top: 5%
 
+      h2
+        margin: 0
+
       .uk-list
         li
           margin: .5em 0
 
     .about-section
-      h2
+
+      .about-title
         text-align: center
         margin-bottom: 20px
 
+      .about-panels
+        background: $darker-blue
+        border-radius: 10px
+
+        .uk-grid
+          .uk-width-1-2:nth-child(2)
+            border-left: 1px solid $grey
+
+        .uk-panel
+          padding: 2.5em 0
+          text-align: center
