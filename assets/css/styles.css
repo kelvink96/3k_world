@@ -75,5 +75,30 @@ main .container .about-section .about-panels .uk-panel {
   padding: 2.5em 0;
   text-align: center;
 }
+main .container .resources-section .resources-title {
+  text-align: center;
+  margin-top: 20px;
+}
+main .container .resources-section .assets .assets-section {
+  padding: 1em 0;
+}
+main .container .resources-section .assets .assets-section .assets-grid {
+  text-align: center;
+}
+main .container .resources-section .assets .assets-section .assets-grid .uk-width-1-2 {
+  padding: 1em 0;
+}
+main .container .resources-section .assets .assets-section .assets-grid .uk-width-1-2 .asset-item {
+  margin: 0 1em;
+  padding: 1em;
+  background: linear-gradient(180deg, #2E303D, #212524);
+}
+main .container .resources-section .assets .assets-main {
+  text-align: center;
+  padding-top: 5%;
+}
+main .container .resources-section .assets .assets-main img {
+  height: 200px;
+}
 
 /*# sourceMappingURL=styles.css.map */
